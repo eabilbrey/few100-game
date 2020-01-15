@@ -1,10 +1,11 @@
 
 import './styles.css';
+import { getRandomInt } from './math'
 
 //1. find the valuable things!
 
 
-const secretNumber = 6;
+const secretNumber = getRandomInt(1, 9);
 
 const squares = document.querySelectorAll('.square') as NodeListOf<HTMLDivElement>;
 
